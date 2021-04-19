@@ -83,10 +83,10 @@
 					<div class="content">
 						<h2 class="major">Skills</h2>
 						<ul class="feature-icons">
-							<li class="icon solid fa-code">Java, C#, Python</li>
+							<li class="icon solid fa-code">Java, C/C++, Python</li>
 							<li class="icon solid fa-terminal">Bash</li>
 							<li class="icon solid fa-file-code">HTML/CSS, Javascript, SQL</li>
-							<li class="icon solid fa-book">Django,React</li>
+							<li class="icon solid fa-book">Django,</li>
 						</ul>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 		<!-- Modal content-->
 		<div class="modal-content">
 			<div class="modal-header">
-				<h1 class="modal-title">CO-OP Technical Analyst</h1>
+				<h1 class="modal-title">CO-OP Technical Anaylst</h1>
 			</div>
 			<div class="modal-body">
 					<ul>
@@ -145,30 +145,7 @@
 					<p>These are some of the projects I have worked on at University and during my free time.</p>
 					<section class="features">
 						<article>
-							<h3 class="major">Online Bookstore</h3>
-							<p>E-commerce website that allows user to search for books or filter by category, make purchases and view analytics</p>
-							<!-- Trigger the modal with a button -->
-							<ul class="actions">
-								<li><a href="#" class="button" data-toggle="modal" data-target="#book">Learn More</a></li>
-							</ul>
-						</article>
-						<article>
-							<h3 class="major">Online Attendance System</h3>
-							<p>School Admin site with the ability to add students, parents, teachers, supervisors, classrooms into the system and mark students as late, absent or present</p>
-							<!-- Trigger the modal with a button -->
-							<ul class="actions">
-								<li><a href="#" class="button" data-toggle="modal" data-target="#Attendance">Learn More</a></li>
-							</ul>
-						</article>
-						<article>
-							<h3 class="major">Engineering Capstone Project</h3>
-							<p>Virtual Reality Showroom</p>
-							<!-- Trigger the modal with a button -->
-							<ul class="actions">
-								<li><a href="#" class="button" data-toggle="modal" data-target="#Capstone">Learn More</a></li>
-							</ul>
-						</article>
-						<article>
+							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
 							<h3 class="major">Rock-Paper-Scissor Smash</h3>
 							<p>Use specialized VR hardware (Oculus Rift, Leap Motion) to create immersive systems with support for user
 								interactions</p>
@@ -178,6 +155,7 @@
 							</ul>
 						</article>
 						<article>
+							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
 							<h3 class="major">Crowd Detection </h3>
 							<p>Computer Vision for Social Distancing (COVID)</p>
 							<!-- Trigger the modal with a button -->
@@ -186,6 +164,7 @@
 							</ul>
 						</article>
 						<article>
+							<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
 							<h3 class="major">EduMate</h3>
 							<p>E-learning website that consists of learning material, chatroom, forum and quizzes to help students learn
 								espically during tough times</p>
@@ -194,49 +173,18 @@
 								<li><a href="#" class="button" data-toggle="modal" data-target="#EduMate">Learn More</a></li>
 							</ul>
 						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+							<h3 class="major">Engineering Capstone Project</h3>
+							<p>Virtual Reality Showroom</p>
+							<!-- Trigger the modal with a button -->
+							<ul class="actions">
+								<li><a href="#" class="button" data-toggle="modal" data-target="#Capstone">Learn More</a></li>
+							</ul>
+						</article>
 
 
 						<div class="container">
-
-							<!-- Modal -->
-							<div class="modal fade" id="book" tabindex="-1" role="dialog">
-								<div class="modal-dialog modal-dialog-centered">
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<h1 class="modal-title">Online Bookstore</h1>
-										</div>
-										<div class="modal-body">
-											<p>To create an online book store that allows 2 types of users (Customers & admin) to interact with the store. The website was deployed in the cloud using AWS with a MySQL database that runs in the cloud. A Java MVC model was used in developing the application with java servlets as the controller, DAO and MySQL as the model, and HTML/CSS and JS for view. The website consists of multiple pages with the main page displaying the available books with the ability to browse by category, search by title and add the book to the shopping cart. Clicking on the book would open a new page displaying information and reviews on the selected book with the option of adding additional reviews. The shopping cart page which could be accessed from the main page display all books in the shopping cart, along with the total cost of all books in the cart and the ability to remove items from the cart. Users can then proceed with their purchase this would prompt them to login or register to continue. The payment page consists of a form requesting all information needed to continue with the purchase such as shipping information and credit card details (no 3rd party payment service was used as it was a school project). There is also a analytics page which only admins can access displaying information such as books sold each month, top 10 visited/sold books. REST API and AJAX calls were used to GET/POST information from/to the DB.</p>
-
-										</div>
-										<ul class="actions modal-footer">
-											<li><a href="#" class="button" data-dismiss="modal">Close</a></li>
-										</ul>
-									</div>
-
-								</div>
-							</div>
-
-							<!-- Modal -->
-							<div class="modal fade" id="Attendance" tabindex="-1" role="dialog">
-								<div class="modal-dialog modal-dialog-centered">
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<h1 class="modal-title">Online Attendance System</h1>
-										</div>
-										<div class="modal-body">
-											<p>To create an online school attendance system that allows 4 types of users (admin, secretary, parents and teachers) to interact with a website in order to produce and manage the attendance records for all schools with the school board. A MERN stack was used in developing the application with React as the front end, express and node as the backend and MongoDB for the database. The website consists of a single page making use of multiple components to change the view. Each type of user can login allowing them to perform specific actions. An admin account can create and assign a secretary account to a school. A secretary account can create a classroom within their assigned school, create and assign a teacher/student to a classroom, and link parents to students’ profiles. A teacher can record the attendance of students within a classroom. A parent account can view the attendance record of the linked student profile. A software requirements specification document was created before development to document the overall descriptions, requirements, features of the application along with the use case, activity and class diagrams for the software.</p>>
-
-										</div>
-										<ul class="actions modal-footer">
-											<li><a href="#" class="button" data-dismiss="modal">Close</a></li>
-										</ul>
-									</div>
-
-								</div>
-							</div>
 
 							<!-- Modal -->
 							<div class="modal fade" id="RPS_VR" tabindex="-1" role="dialog">
@@ -247,15 +195,15 @@
 											<h1 class="modal-title">Rock-Paper-Scissor Smash</h1>
 										</div>
 										<div class="modal-body">
-											<p>Virtual Reality provides an immersive experience for users to interact with by simulating a real or virtual environment in a virtual 3D space. There is a wide array of immersion equipment out there that provide various level of presence. The two Virtual reality device that I will be focusing on is the leap motion and the oculus rift. The oculus rift is a head-mounted display, which provides a tracking system offering the user full 360-degree perspective and delivered a 960 x 1080 display to each eye with a refresh rate of 60Hz allowing the user to experience an illusion that he is actually in the game. The leap motion on the other hand provides hand tracking, which consist of two cameras and three infrared LEDs to read/interpret 3D data and infer the positions of occluded objects, allowing users to experience realistic hand interactions and gestures. By pairing the two hardware’s together I will be able to develop a Rock-Paper-Scissor Smash game, which implements gestural control/interactions. This game will consist of an interactive VR gestural control game. It will make use of the Oculus to provide visual perception of the environment and the leap motion to provide somatosensory perception. The objective
-												of the game is to stay alive as long as possible and achieve the highest score possible by eliminating the most
-												enemy before you lose. There will be 3 different types of enemies that spawn randomly throughout the
-												environment, which will provide points when eliminated. Making use of the leap motion the user can make
-												3 available hand gestures (rock, paper, and scissors), each enemy can only be eliminated by a specific hand
-												gesture (i.e. Rock beats paper). To eliminate the enemy, one will use the associated hand gesture and
-												hit/interact with the enemy. These enemies slowly approach the center (towards you), once they reach the
-												center the game is over and you lose, the game will only end once you lose.
-												</p>>
+											<ul>
+												<li> Develop virtual environments using a high-level software framework (Unity) and C code
+												</li>
+												<li> Created a techincal report outlining the objectives and the methodolgy of the project
+												</li>
+												<li> Use specialized VR hardware (Oculus Rift, Leap Motion) to create immersive systems with support for
+													user interactions
+												</li>
+											</ul>
 
 										</div>
 										<ul class="actions modal-footer">
@@ -277,9 +225,8 @@
 											<h1 class="modal-title">Crowd Detection - Social Distancing</h1>
 										</div>
 										<div class="modal-body">
-											<p>Computer vision algorithms used for people detection have applications in crowd management and surveillance. Crowd management is important for public safety, especially now amidst the COVID-19 pandemic. The pandemic has resulted in worldwide economic and social issues. Health professionals recommend practicing social distancing as one of the most effective methods to slow the spread of the virus. Computer vision algorithms can assist with social distancing efforts by providing a means to alert authorities when violations on the permitted headcount within a space occur. Crowd counting and localization can also be useful when designing public spaces such as airports and malls, and in making decisions on how to manage crowds in these public spaces.
-											
-											In this project, we combined overlapping views from multiple cameras in a multi-step approach to locate people in sparse crowds and determine whether they were adhering to social distancing requirements (2 metres apart is considered safe). We used a convolutional neural network, YOLOv3, to detect people in sequential frames from multiple cameras. The detection’s were then projected to a top view ground plane via perspective transform using intrinsic and extrinsic camera parameters. Next we aggregated the projected detections; we tried two methods for this, using Gaussian Mixture Models, and Kernel Density Estimation to obtain the best estimates of each person’s position on the ground plane. Finally, we obtained a people count and calculated the distance between the people.	
+											<p>Using multiple overlapping camera views to detect people and determine if they are practicing social distancing.
+												Applying methods such as object detection, camera perspective transform, Kernel Densitiy Estimation and Distance Calculation.
 											</p>
 										</div>
 										<ul class="actions modal-footer">
@@ -301,7 +248,16 @@
 										<h1 class="modal-title">EduMate</h1>
 									</div>
 									<div class="modal-body">
-										<p>To create an online e-learning website that allows students to learn and interact with other like-minded individuals. The website was hosted on the cloud using Heroku. A Django MVC was used in developing the application with Django/Python acting as the backend, HTML/CSS and JS as the frontend and sqlite3 for the database. The website consists of multiple pages with a landing page as the first thing they see when new users access the website. From there they can create a new account or login to a existing one. Students can then learn from a series of available resources ranging from math to science, chat with other students that or already logged in, visit the forum page to ask questions and answer questions from fellow peers or go to the quiz section to test their knowledge on what they learned.</p>>
+										<p>To support current students amidst COVID and in the future by creating a product that will allow students to learn, communicate with others and test their knowledge on what they learned.
+										</p>
+										<ul>
+											<li> Support students by providing more features to help aid them in learning
+											</li>
+											<li> Ability to communicate with others in the same grade
+											</li>
+											<li>Ability to test yourself with quizzes
+											</li>
+										</ul>
 									</div>
 									<ul class="actions modal-footer">
 										<li><a href="#" class="button" data-dismiss="modal">Close</a></li>
